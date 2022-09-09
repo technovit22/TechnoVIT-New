@@ -1,0 +1,7 @@
+.card{
+    width: 10em;
+    height: 10em;
+    background-color: #17826b;
+    z-index: 1;
+    border-radius: 10px;
+}

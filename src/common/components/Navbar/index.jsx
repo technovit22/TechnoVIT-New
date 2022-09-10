@@ -41,7 +41,7 @@ const Navbar = () => {
                 key={name}
                 href={href}
                 Icon={Icon}
-                className="px-2 py-1 font-medium rounded-full transition-all bg-primary-600 text-white"
+                className="px-2 py-1 text-lg font-medium rounded-full transition-all bg-primary-600 text-white"
               >
                 {name}
               </LinkedItem>
@@ -65,7 +65,7 @@ const Navbar = () => {
           focus
           className="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden"
         >
-          <div className="rounded-lg shadow-lg bg-white/20 shadow-blur backdrop-blur-xl divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg bg-white/30 shadow-blur backdrop-blur-xl divide-y-2 divide-gray-50">
             <div className="pt-2 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <img

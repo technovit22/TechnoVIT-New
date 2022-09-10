@@ -18,7 +18,7 @@ const PageLayout = ({ title = "", className = "", children }) => {
         <title>{title}</title>
       </Head>
 
-      <main className="bg-[#111] p-2 md:p-0 text-white min-h-screen flex flex-col items-center overflow-x-hidden">
+      <main className="bg-[#111] md:p-0 text-white min-h-screen flex flex-col items-center overflow-x-hidden -z-20">
         <Navbar />
 
         <motion.div
@@ -28,7 +28,7 @@ const PageLayout = ({ title = "", className = "", children }) => {
           // exit="exit"
           // transition={{ type: "keyframes", duration: 0.5 }}
           className={clsx(
-            "pt-16 md:w-11/12 flex-1  flex flex-col items-center overflow-x-hidden",
+            "pt-16 w-full flex-1  flex flex-col items-center overflow-x-hidden ",
             className
           )}
         >

@@ -25,6 +25,7 @@ const SocialNavLinks = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        target={"_blank"}
         href="https://www.instagram.com/Technovit22/"
       >
         <AiFillInstagram className="w-9 h-9 fill-gray-400" />
@@ -33,6 +34,7 @@ const SocialNavLinks = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        target={"_blank"}
         href="https://snapchat.com/add/technovit22"
       >
         <GrSnapchat className="w-8 h-8 fill-gray-400" />
@@ -41,6 +43,7 @@ const SocialNavLinks = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        target={"_blank"}
         href="https://www.youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"
       >
         <RiYoutubeFill className="w-9 h-9 fill-gray-400" />
@@ -49,6 +52,7 @@ const SocialNavLinks = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        target={"_blank"}
         href="mailto:technovit22@gmail.com"
       >
         <HiMail className="w-9 h-9 fill-gray-400" />
@@ -57,6 +61,7 @@ const SocialNavLinks = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        target={"_blank"}
         href="https://twitter.com/technovit22"
       >
         <AiOutlineTwitter className="w-9 h-9 fill-gray-400" />

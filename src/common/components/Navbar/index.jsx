@@ -15,7 +15,7 @@ const variants = {
 
 const Navbar = () => {
   return (
-    <Popover className="w-full sticky top-2 z-50 ">
+    <Popover className="w-full sticky md:top-2 z-50 ">
       <motion.header
         variants={variants}
         initial="hidden"
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <div className="-mr-2 -mt-2">
                   <Popover.Button
                     id="navbar-close-btn"
-                    className="flex items-center justify-center text-gray-400 focus:outline-none"
+                    className="flex items-center justify-center text-white focus:outline-none"
                   >
                     <AiOutlineCloseCircle
                       className="w-8 h-8"
